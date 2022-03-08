@@ -19,8 +19,9 @@
 
 .card{
     height: auto;
-    width: 400px;
+    width: 350px;
 }
+
 
 .card img{
     width: 50%;
@@ -62,5 +63,39 @@
     font-style: none;
     font-size: 26px;
     text-decoration: none;
-    pointer-events: none;
 }
+
+.redes .red{
+    transition: all 1s;
+}
+.redes .red:hover{
+    transform: rotate(360deg);
+    transition: all 1.5s;
+    cursor: pointer;
+}
+
+.redes .email{
+    color: rgba(255, 0, 0, 0.63);
+}
+.redes .email:hover{
+    color: red;
+}
+.redes .wpp{
+    color: #4dc247;
+}
+.redes .wpp:hover{
+    color: #277e22;
+}
+.redes .inst{
+    color: #ff0084;
+}
+.redes .inst:hover{
+    color: #c42477;
+}
+.redes .face{
+    color: #3b5998;
+}
+.redes .face:hover{
+    color: #0e50df;
+}
+
